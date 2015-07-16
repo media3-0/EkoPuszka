@@ -1193,8 +1193,6 @@ Text GLabel 6400 3000 2    39   Input ~ 0
 RL
 NoConn ~ 1750 3300
 NoConn ~ 6350 4300
-Text GLabel 10500 1250 0    39   Input ~ 0
-VUSB_BUS
 $Comp
 L C C20
 U 1 1 559E6724
@@ -2165,8 +2163,6 @@ Wire Wire Line
 Wire Wire Line
 	1700 6250 2900 6250
 Wire Wire Line
-	1500 6250 1600 6250
-Wire Wire Line
 	1500 6550 1600 6550
 Wire Wire Line
 	1600 6350 1600 6200
@@ -2265,7 +2261,6 @@ Wire Wire Line
 	6400 4800 6400 4850
 Wire Wire Line
 	1100 6350 1600 6350
-Connection ~ 1600 6250
 Wire Wire Line
 	5500 8350 5500 8400
 Text GLabel 9850 4950 0    39   Input ~ 0
@@ -2283,8 +2278,6 @@ F 3 "" H 10950 5100 39  0000 C CNN
 	1    10950 5100
 	0    1    1    0   
 $EndComp
-Text GLabel 10700 5100 0    39   Input ~ 0
-VUSB_BUS
 $Comp
 L 2N7002 T3
 U 1 1 55A9E0B5
@@ -2296,8 +2289,6 @@ F 3 "" H 10100 4950 39  0000 C CNN
 	1    10100 4950
 	1    0    0    -1  
 $EndComp
-Text GLabel 10100 4300 1    39   Input ~ 0
-VUSB_BUS
 $Comp
 L R R5
 U 1 1 55A9EFC2
@@ -2417,4 +2408,10 @@ Wire Wire Line
 Wire Wire Line
 	1150 6300 1150 6350
 Connection ~ 1150 6350
+Text GLabel 10700 5100 0    39   Input ~ 0
+VBUS
+Text GLabel 10500 1250 0    39   Input ~ 0
+VBUS
+Text GLabel 10100 4300 1    39   Input ~ 0
+VBUS
 $EndSCHEMATC
