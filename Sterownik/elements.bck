@@ -1,0 +1,24 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1117
+D LD1117S33TR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT223
+K REGULATOR LDO 3.3V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP 24C512
+D I2C Serial eprom
+K I2C MEMORY
+F memory/24xx512.pdf
+$ENDCMP
+#
+$CMP 24XX1025
+D I2C Serial EEPROM
+K EEPROM Serial
+$ENDCMP
+#
+$CMP ZHCS1000
+D Diode Schottky
+$ENDCMP
+#
+#End Doc Library

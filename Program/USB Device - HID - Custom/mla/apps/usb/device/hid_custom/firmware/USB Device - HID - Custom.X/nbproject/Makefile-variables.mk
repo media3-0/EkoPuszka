@@ -1,0 +1,13 @@
+#
+# Generated - do not edit!
+#
+# NOCDDL
+#
+CND_BASEDIR=`pwd`
+# dsPIC33EP256MU806 configuration
+CND_ARTIFACT_DIR_dsPIC33EP256MU806=dist/dsPIC33EP256MU806/production
+CND_ARTIFACT_NAME_dsPIC33EP256MU806=USB_Device_-_HID_-_Custom.X.production.hex
+CND_ARTIFACT_PATH_dsPIC33EP256MU806=dist/dsPIC33EP256MU806/production/USB_Device_-_HID_-_Custom.X.production.hex
+CND_PACKAGE_DIR_dsPIC33EP256MU806=${CND_DISTDIR}/dsPIC33EP256MU806/package
+CND_PACKAGE_NAME_dsPIC33EP256MU806=usbdevice-hid-custom.x.tar
+CND_PACKAGE_PATH_dsPIC33EP256MU806=${CND_DISTDIR}/dsPIC33EP256MU806/package/usbdevice-hid-custom.x.tar
