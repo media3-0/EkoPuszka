@@ -256,8 +256,6 @@ F 3 "" H 8800 5150 60  0000 C CNN
 	1    8800 5150
 	1    0    0    -1  
 $EndComp
-Text GLabel 7950 4900 0    39   Input ~ 0
-MAINTAIN
 $Comp
 L R R19
 U 1 1 55940D4E
@@ -1140,7 +1138,6 @@ F 3 "" H 8550 1300 60  0000 C CNN
 	1    8550 1300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6350 3300
 $Comp
 L dsPIC33EP256MU806 U2
 U 1 1 55924CC9
@@ -2324,4 +2321,10 @@ NoConn ~ 1750 3600
 Wire Wire Line
 	1700 3500 1750 3500
 NoConn ~ 1750 4000
+Text GLabel 6400 3300 2    39   Input ~ 0
+POWER_LED
+Wire Wire Line
+	6400 3300 6350 3300
+Text GLabel 7950 4900 0    39   Input ~ 0
+POWER_LED
 $EndSCHEMATC
