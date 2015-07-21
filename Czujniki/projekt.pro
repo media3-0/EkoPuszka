@@ -1,4 +1,4 @@
-update=wto, 30 cze 2015, 15:50:45
+update=wto, 21 lip 2015, 10:37:47
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,5 +61,5 @@ LibName29=valves
 LibName30=dspic
 LibName31=projekt-cache
 LibName32=user-power
-LibName33=elements
-LibName34=mcp3201
+LibName33=mcp3201
+LibName34=elements
