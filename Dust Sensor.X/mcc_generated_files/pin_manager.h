@@ -8,12 +8,12 @@
     pin_manager.h
 
   @Summary:
-    This is the Pin Manager file generated using MPLAB® Code Configurator
+    This is the Pin Manager file generated using MPLABï¿½ Code Configurator
 
   @Description:
     This header file provides implementations for pin APIs for all pins selected in the GUI.
     Generation Information :
-        Product Revision  :  MPLAB® Code Configurator - v2.25.2
+        Product Revision  :  MPLABï¿½ Code Configurator - v2.25.2
         Device            :  PIC16F1703
         Version           :  1.01
     The generated drivers are tested against the following:
@@ -107,6 +107,23 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #define channel_AN7_ResetPullup()   do { WPUC3 = 0; } while(0)
 #define channel_AN7_SetAnalogMode()   do { ANSC3 = 1; } while(0)
 #define channel_AN7_SetDigitalMode()   do { ANSC3 = 0; } while(0)
+// get/set IO_RC4 aliases
+#define IO_RC4_TRIS               TRISC4
+#define IO_RC4_LAT                LATC4
+#define IO_RC4_PORT               RC4
+#define IO_RC4_WPU                WPUC4
+#define IO_RC4_ANS                ANSC4
+#define IO_RC4_SetHigh()    do { LATC4 = 1; } while(0)
+#define IO_RC4_SetLow()   do { LATC4 = 0; } while(0)
+#define IO_RC4_Toggle()   do { LATC4 = ~LATC4; } while(0)
+#define IO_RC4_GetValue()         RC4
+#define IO_RC4_SetDigitalInput()    do { TRISC4 = 1; } while(0)
+#define IO_RC4_SetDigitalOutput()   do { TRISC4 = 0; } while(0)
+
+#define IO_RC4_SetPullup()    do { WPUC4 = 1; } while(0)
+#define IO_RC4_ResetPullup()   do { WPUC4 = 0; } while(0)
+#define IO_RC4_SetAnalogMode()   do { ANSC4 = 1; } while(0)
+#define IO_RC4_SetDigitalMode()   do { ANSC4 = 0; } while(0)
 // get/set IO_RC5 aliases
 #define IO_RC5_TRIS               TRISC5
 #define IO_RC5_LAT                LATC5

@@ -8,12 +8,12 @@
     pin_manager.c
 
   Summary:
-    This is the Pin Manager file generated using MPLAB® Code Configurator
+    This is the Pin Manager file generated using MPLABï¿½ Code Configurator
 
   Description:
     This header file provides implementations for pin APIs for all pins selected in the GUI.
     Generation Information :
-        Product Revision  :  MPLAB® Code Configurator - v2.25.2
+        Product Revision  :  MPLABï¿½ Code Configurator - v2.25.2
         Device            :  PIC16F1703
         Driver Version    :  1.02
     The generated drivers are tested against the following:
@@ -54,9 +54,9 @@ void PIN_MANAGER_Initialize(void) {
     ANSELA = 0x07;
     WPUA = 0x00;
 
-    LATC = 0x00;
-    TRISC = 0x3F;
-    ANSELC = 0x1F;
+    LATC = 0x30;
+    TRISC = 0x0F;
+    ANSELC = 0x0F;
     WPUC = 0x00;
 
     OPTION_REGbits.nWPUEN = 0x01;
