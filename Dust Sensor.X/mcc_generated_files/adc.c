@@ -8,12 +8,12 @@
     adc.c
 
   @Summary
-    This is the generated driver implementation file for the ADC driver using MPLAB® Code Configurator
+    This is the generated driver implementation file for the ADC driver using MPLABï¿½ Code Configurator
 
   @Description
     This source file provides implementations for driver APIs for ADC.
     Generation Information :
-        Product Revision  :  MPLAB® Code Configurator - v2.25.2
+        Product Revision  :  MPLABï¿½ Code Configurator - v2.25.2
         Device            :  PIC16F1703
         Driver Version    :  2.00
     The generated drivers are tested against the following:

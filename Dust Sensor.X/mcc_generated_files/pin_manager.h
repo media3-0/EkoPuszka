@@ -59,6 +59,23 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #define PULL_UP_ENABLED      1
 #define PULL_UP_DISABLED     0
 
+// get/set channel_AN2 aliases
+#define channel_AN2_TRIS               TRISA2
+#define channel_AN2_LAT                LATA2
+#define channel_AN2_PORT               RA2
+#define channel_AN2_WPU                WPUA2
+#define channel_AN2_ANS                ANSA2
+#define channel_AN2_SetHigh()    do { LATA2 = 1; } while(0)
+#define channel_AN2_SetLow()   do { LATA2 = 0; } while(0)
+#define channel_AN2_Toggle()   do { LATA2 = ~LATA2; } while(0)
+#define channel_AN2_GetValue()         RA2
+#define channel_AN2_SetDigitalInput()    do { TRISA2 = 1; } while(0)
+#define channel_AN2_SetDigitalOutput()   do { TRISA2 = 0; } while(0)
+
+#define channel_AN2_SetPullup()    do { WPUA2 = 1; } while(0)
+#define channel_AN2_ResetPullup()   do { WPUA2 = 0; } while(0)
+#define channel_AN2_SetAnalogMode()   do { ANSA2 = 1; } while(0)
+#define channel_AN2_SetDigitalMode()   do { ANSA2 = 0; } while(0)
 // get/set SDA aliases
 #define SDA_TRIS               TRISA4
 #define SDA_LAT                LATA4
@@ -90,6 +107,57 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 #define SCL_SetPullup()    do { WPUA5 = 1; } while(0)
 #define SCL_ResetPullup()   do { WPUA5 = 0; } while(0)
+// get/set channel_AN4 aliases
+#define channel_AN4_TRIS               TRISC0
+#define channel_AN4_LAT                LATC0
+#define channel_AN4_PORT               RC0
+#define channel_AN4_WPU                WPUC0
+#define channel_AN4_ANS                ANSC0
+#define channel_AN4_SetHigh()    do { LATC0 = 1; } while(0)
+#define channel_AN4_SetLow()   do { LATC0 = 0; } while(0)
+#define channel_AN4_Toggle()   do { LATC0 = ~LATC0; } while(0)
+#define channel_AN4_GetValue()         RC0
+#define channel_AN4_SetDigitalInput()    do { TRISC0 = 1; } while(0)
+#define channel_AN4_SetDigitalOutput()   do { TRISC0 = 0; } while(0)
+
+#define channel_AN4_SetPullup()    do { WPUC0 = 1; } while(0)
+#define channel_AN4_ResetPullup()   do { WPUC0 = 0; } while(0)
+#define channel_AN4_SetAnalogMode()   do { ANSC0 = 1; } while(0)
+#define channel_AN4_SetDigitalMode()   do { ANSC0 = 0; } while(0)
+// get/set IO_RC1 aliases
+#define IO_RC1_TRIS               TRISC1
+#define IO_RC1_LAT                LATC1
+#define IO_RC1_PORT               RC1
+#define IO_RC1_WPU                WPUC1
+#define IO_RC1_ANS                ANSC1
+#define IO_RC1_SetHigh()    do { LATC1 = 1; } while(0)
+#define IO_RC1_SetLow()   do { LATC1 = 0; } while(0)
+#define IO_RC1_Toggle()   do { LATC1 = ~LATC1; } while(0)
+#define IO_RC1_GetValue()         RC1
+#define IO_RC1_SetDigitalInput()    do { TRISC1 = 1; } while(0)
+#define IO_RC1_SetDigitalOutput()   do { TRISC1 = 0; } while(0)
+
+#define IO_RC1_SetPullup()    do { WPUC1 = 1; } while(0)
+#define IO_RC1_ResetPullup()   do { WPUC1 = 0; } while(0)
+#define IO_RC1_SetAnalogMode()   do { ANSC1 = 1; } while(0)
+#define IO_RC1_SetDigitalMode()   do { ANSC1 = 0; } while(0)
+// get/set IO_RC2 aliases
+#define IO_RC2_TRIS               TRISC2
+#define IO_RC2_LAT                LATC2
+#define IO_RC2_PORT               RC2
+#define IO_RC2_WPU                WPUC2
+#define IO_RC2_ANS                ANSC2
+#define IO_RC2_SetHigh()    do { LATC2 = 1; } while(0)
+#define IO_RC2_SetLow()   do { LATC2 = 0; } while(0)
+#define IO_RC2_Toggle()   do { LATC2 = ~LATC2; } while(0)
+#define IO_RC2_GetValue()         RC2
+#define IO_RC2_SetDigitalInput()    do { TRISC2 = 1; } while(0)
+#define IO_RC2_SetDigitalOutput()   do { TRISC2 = 0; } while(0)
+
+#define IO_RC2_SetPullup()    do { WPUC2 = 1; } while(0)
+#define IO_RC2_ResetPullup()   do { WPUC2 = 0; } while(0)
+#define IO_RC2_SetAnalogMode()   do { ANSC2 = 1; } while(0)
+#define IO_RC2_SetDigitalMode()   do { ANSC2 = 0; } while(0)
 // get/set channel_AN7 aliases
 #define channel_AN7_TRIS               TRISC3
 #define channel_AN7_LAT                LATC3

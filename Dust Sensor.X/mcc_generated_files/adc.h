@@ -8,12 +8,12 @@
     adc.h
 
   @Summary
-    This is the generated header file for the ADC driver using MPLAB® Code Configurator
+    This is the generated header file for the ADC driver using MPLABï¿½ Code Configurator
 
   @Description
     This header file provides APIs for driver for ADC.
     Generation Information :
-        Product Revision  :  MPLAB® Code Configurator - v2.25.2
+        Product Revision  :  MPLABï¿½ Code Configurator - v2.25.2
         Device            :  PIC16F1703
         Driver Version    :  2.00
     The generated drivers are tested against the following:
@@ -87,6 +87,8 @@ extern "C" {
         FVRBuffer2_channel = 0x1C,
         Temp_channel = 0x1D,
         FVRBuffer1_channel = 0x1F,
+        channel_AN2 = 0x02,
+        channel_AN4 = 0x04,
         channel_AN7 = 0x07
     } adc_channel_t;
 

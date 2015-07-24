@@ -4,13 +4,17 @@
         <manager generated="true" name="Pin Manager" reloadPin="manual">
             <setting name="package" option="DIP14"/>
             <setting name="sorting" option="true"/>
+            <resource customName="channel_AN2" digital="false" direction="INPUT" function="AN2" ioc="0" module="ADC" name="RA2" start="false" type="pin" wpu="false"/>
             <resource customName="SDA" digital="true" direction="BIDIRECTIONAL" function="SDA" ioc="0" module="MSSP" name="RA4" start="true" type="pin" wpu="false"/>
             <resource customName="SCL" digital="true" direction="BIDIRECTIONAL" function="SCL" ioc="0" module="MSSP" name="RA5" start="true" type="pin" wpu="false"/>
+            <resource customName="channel_AN4" digital="false" direction="INPUT" function="AN4" ioc="0" module="ADC" name="RC0" start="false" type="pin" wpu="false"/>
+            <resource customName="IO_RC1" digital="true" direction="INPUT" function="RC1" ioc="0" module="GPIO" name="RC1" start="false" type="pin" wpu="false"/>
+            <resource customName="IO_RC2" digital="true" direction="INPUT" function="RC2" ioc="0" module="GPIO" name="RC2" start="false" type="pin" wpu="false"/>
             <resource customName="channel_AN7" digital="false" direction="INPUT" function="AN7" ioc="0" module="ADC" name="RC3" start="false" type="pin" wpu="false"/>
             <resource customName="IO_RC4" digital="true" direction="OUTPUT" function="RC4" ioc="0" module="GPIO" name="RC4" start="true" type="pin" wpu="false"/>
             <resource customName="IO_RC5" digital="true" direction="OUTPUT" function="RC5" ioc="0" module="GPIO" name="RC5" start="true" type="pin" wpu="false"/>
-            <file checksum="307099519" modified="false" name="pin_manager.c" path="mcc_generated_files/pin_manager.c"/>
-            <file checksum="3243645201" modified="false" name="pin_manager.h" path="mcc_generated_files/pin_manager.h"/>
+            <file checksum="4169987954" modified="false" name="pin_manager.c" path="mcc_generated_files/pin_manager.c"/>
+            <file checksum="1935789770" modified="false" name="pin_manager.h" path="mcc_generated_files/pin_manager.h"/>
         </manager>
         <manager generated="true" name="Interrupt Manager" reloadPin="manual">
             <setting name="preemptHigh" option="true"/>
@@ -126,13 +130,17 @@
                 <setting name="ADRESH" option="0x0" register="ADRESH"/>
             </initializer>
             <setting name="ADI" option="false"/>
+            <resource customName="channel_AN2" function="AN2" name="RA2" type="pin"/>
+            <resource customName="channel_AN4" function="AN4" name="RC0" type="pin"/>
             <resource customName="channel_AN7" function="AN7" name="RC3" type="pin"/>
-            <file checksum="699070136" modified="false" name="adc.c" path="mcc_generated_files/adc.c"/>
-            <file checksum="3434258381" modified="false" name="adc.h" path="mcc_generated_files/adc.h"/>
+            <file checksum="2029189682" modified="false" name="adc.c" path="mcc_generated_files/adc.c"/>
+            <file checksum="3168907447" modified="false" name="adc.h" path="mcc_generated_files/adc.h"/>
         </module>
         <module generated="true" mode="GPIO" name="GPIO" order="3" reloadPin="manual" type="GPIO">
             <resource customName="IO_RC5" digital="true" direction="OUTPUT" function="RC5" ioc="0" module="GPIO" name="RC5" start="true" type="pin" wpu="false"/>
             <resource customName="IO_RC4" digital="true" direction="OUTPUT" function="RC4" ioc="0" module="GPIO" name="RC4" start="true" type="pin" wpu="false"/>
+            <resource customName="IO_RC2" digital="true" direction="INPUT" function="RC2" ioc="0" module="GPIO" name="RC2" start="false" type="pin" wpu="false"/>
+            <resource customName="IO_RC1" digital="true" direction="INPUT" function="RC1" ioc="0" module="GPIO" name="RC1" start="false" type="pin" wpu="false"/>
         </module>
     </modules>
 </configuration>
