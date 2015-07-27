@@ -38,10 +38,10 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
+Title "EkoPuszka"
+Date "2015-07-27"
 Rev ""
-Comp ""
+Comp "Sławomir Kozok"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -2355,7 +2355,7 @@ U 1 1 55B31A28
 P 3100 8650
 F 0 "DET1" H 3250 8800 60  0000 C CNN
 F 1 "MQ-Sensor" V 2950 8350 60  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 3100 8650 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x06" H 3100 8650 60  0001 C CNN
 F 3 "" H 3100 8650 60  0000 C CNN
 	1    3100 8650
 	1    0    0    -1  
