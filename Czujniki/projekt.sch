@@ -2527,4 +2527,6 @@ Wire Wire Line
 NoConn ~ 4200 1450
 NoConn ~ 4200 2050
 NoConn ~ 11650 2300
+Text Label 2500 6150 0    60   ~ 0
+1,5V
 $EndSCHEMATC
