@@ -1,3 +1,10 @@
+All files are based on this license, but in some source code there is
+additional info about exception resulting from hardware - most of code is
+designed for Microchip PIC's and dsPIC's - so most of source code files will
+work only on Microchip platform. If you want to change platform, you should
+change some code, beacuse of architecture and available features for each
+microcontroller family.
+
 The MIT License (MIT)
 
 Copyright (c) 2015 Sławomir Kozok
